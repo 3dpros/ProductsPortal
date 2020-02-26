@@ -9,7 +9,7 @@ if(empty($_POST['name'])  ||
 }
 
 $name = $_POST['name']; 
-$email_address = $_POST['email']; 
+$email_address = '3dprosteam@gmail.com'; 
 $message = $_POST['message']; 
 
 if (!preg_match(
